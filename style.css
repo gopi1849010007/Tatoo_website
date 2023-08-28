@@ -1,0 +1,885 @@
+* {
+    margin: 0px;
+    padding: 0px;
+   
+
+}
+
+i{
+    color:orange;
+    font-size: 25px;
+ 
+
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    
+    color: orange;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+ p{
+   
+    font-family: 'Dancing Script', cursive;
+}
+.btn-sub{
+    margin-top:30px;
+    color:white;
+    padding:10px 20px;
+
+   
+  
+    background-color: orange;
+    cursor: pointer;
+    transition:all 0.5s;
+}
+
+.btn-sub:hover{
+    background-color: green;
+    color:red;
+}
+
+
+.first{
+    color:yellow
+}
+
+.second{
+    color:red;
+}
+
+.first-div {
+    background: gray;
+    width: 100%;
+    height: 145vh;
+    display: block;
+
+}
+
+.first-div-col-3 {
+
+    display: flex;
+    margin-top: 20px;
+}
+
+.first-div-col-3-2 {
+
+    width: 100%;
+
+
+}
+
+.first-div-col-3-2 h1 {
+    color: #fff;
+    padding-left: 60px;
+    padding-top: 200px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.first-div-col-3-2-subheading {
+
+
+    margin-left: 60px;
+    font-weight: 100px;
+    margin-bottom: 60px;
+}
+
+.first-div-col-3-2-subheading p {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.button2 {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 60px;
+    margin-top: 150px;
+    padding: 20px 50px;
+
+    background-color: orange;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.first-div-col-3-2 img {
+    border-radius: 0px 50% 50% 50%;
+}
+
+.logo-location-col-3 {
+    display: flex;
+    padding-top: 50px;
+}
+
+
+.other-data {
+
+    flex: 1;
+    text-align: right;
+
+}
+
+.other-data ul {
+    display: inline-block;
+    width: 100%;
+
+
+}
+
+.other-data ul li {
+
+    display: inline-block;
+    border-right: 1px solid gainsboro;
+    padding-right: 20px;
+    padding-left: 150px;
+    color: #fff
+}
+
+/*---------main menu--------*/
+.first-div-col-3-main-menu {
+    background-color: black;
+    margin-top: 40px;
+    display: flex;
+    height: 60px;
+}
+
+.left-main-div {
+    background-color: black;
+
+
+
+}
+
+.left-main-div ul {
+    display: inline-block;
+}
+
+.left-main-div ul li {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+
+}
+
+.left-main-div ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    padding-top: 15px;
+    color: white;
+    font-weight: 12px;
+
+}
+
+.left-main-div ul li a:hover {
+    color: red;
+    width: 100%
+}
+
+.right-main-div {
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.right-main-div ul {
+    padding-right: 100px;
+
+}
+
+
+.right-main-div ul li {
+
+
+    display: inline-block;
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #fff;
+    padding-right: 30px;
+    border-right: 1px solid white;
+    padding-left: 10px;
+}
+
+
+
+.right-main-div ul li a {
+    background-color: orange;
+    font-weight: bold;
+    padding: 20px 30px;
+    font-size: 22px;
+    border-left: none;
+    text-decoration: none;
+    color: #fff;
+}
+.first-div-col-3-2-subheading p{
+    color:#fff;
+}
+
+
+.second-div {
+    display: flex;
+    background: black;
+    width: 100%;
+    height: 140vh;
+
+}
+
+.why-column-2 {
+   
+    color: #fff;
+    width: 100%;
+   
+}
+
+.why-column-2 img {
+    border-radius: 0 0 400% 80%;
+}
+
+.why-column-2 h3 {
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.why-column-2 h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    margin-left: 100px;
+}
+
+.why-column-2 p {
+    font-family: 'Dancing Script', cursive;
+    margin-left: 100px;
+   
+}
+.why-column-2-2 {
+    margin-top:70px;
+    margin-left: 100px;
+
+    display:flex;
+}
+.why-column-2-2-3{
+     padding:0 20px
+
+}
+
+.why-column-2-2-3 h5{
+    margin-top:5px;
+    font-size:20px;
+border:2px solid orange;
+padding:20px 20px;
+background-color: orange;
+}
+.why-column-2-2-3 h1{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.why-column-2-2-3 i {
+    font-size: 50px;
+    color:yellow
+}
+.why-column-2-2-3 p{
+    margin-left:0px;
+}
+
+/*-------- third div-----------*/
+
+.third-div {
+
+
+width: 100%;
+height: 120vh;
+display:block;
+text-align: center;
+
+    
+}
+
+.back-img{
+    z-index: -1;
+    left:0;
+    position: absolute;
+    width:100%;
+    height:120vh;
+    filter:blur(0px);
+    background-position: center;
+    background-size: 100%;
+    filter: blur(5px);
+    
+}
+
+.services-heading{
+padding-top:60px;
+z-index: 5;
+ width:100%;
+
+    display:block;
+    color:#fff
+}
+.services-heading h1{
+    margin:30px 0px;
+    font-size: 40px;
+}
+.services-details{
+padding:0px 30px;
+    z-index: 5;
+
+    display:flex;
+    justify-content: center;
+
+}
+.services-details-3{
+    flex:0 0 350px;
+    background-color: gray;
+    margin:0 30px;
+    margin-top:60px;
+    text-align: left;
+
+
+    z-index: 5;
+  width:100%;
+}
+.services-details-3 img{
+    width:100%;
+}
+.services-details-3 h1{
+    font-size: 30px;
+    margin:25px 30px;
+}
+.services-details-3 p {
+color: #fff;
+margin:20px 30px;
+}
+.services-details-3 h4 {
+    color: orange;
+    font-size: 20px;
+    margin:20px 30px;
+    }
+    .services-details-3 a {
+        font-size: 40px;
+        margin-left:30px;
+        border:2px solid orange;
+        background-color: orange;
+        padding:25px 25px;
+        margin-top: -10px;
+
+    }
+
+
+ /*-----------fourth-div--------*/
+
+.fourth-div {
+    display: flex;
+    color:#fff;
+    background: black;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+}
+
+.data-monitor{
+    display: flex;
+    background-color: rgb(195, 135, 58);
+    width:80%;
+  
+    margin:200px 40px;
+    border:1px solid red;
+}
+.col-4{
+    margin-top:50px;
+    width:100%;
+    text-align: center;
+}
+.col-4 h1{
+    font-size:60px;
+}
+
+.col-4 h3{
+    color: #fff;
+}
+
+
+
+/*-------fifth-div---------*/
+
+
+.fifth-div {
+    color:#fff;
+    background: black;
+    width: 100%;
+    height: 110vh;
+    text-align: center;
+}
+
+
+.Our-Work-heading h1 .first{
+    color:yellow
+}
+.Our-Work-heading h1 .second{
+    color:red;
+}
+.Our-Work-more-details{
+display:flex;
+
+margin:60px 130px;
+}
+.Our-Work-more-details-2 {
+    text-align: left;
+    margin-left:20px;
+
+
+}
+
+.Our-Work-more-details-2 h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.Our-Work-more-details-2 h3{
+    padding-top:100px;
+}
+
+
+/*---------sixth-------*/
+.sixth-div {
+    background: gray;
+    width: 100%;
+    height: 150vh;
+    display: block;
+}
+
+.sixth-div-3-heading h1 .first{
+    color:yellow
+}
+.sixth-div-3-heading  h1 .second{
+    color:red;
+}
+.sixth-div-3-heading  p{
+    color:#fff;
+}
+
+
+
+.sixth-div-3-heading {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.sixth-div-3 {
+    margin: 30px 30%;
+  
+    display: flex;
+   justify-content: center;
+}
+.sixth-div-3-3{
+    flex:0 0 250px;
+    height:320px;
+    background-color: black;
+
+    text-align:left;
+    border:1px solid white;
+    border-collapse: collapse;
+}
+
+
+
+.sixth-div-3-3 h1{
+    padding:20px 0px;
+    font-size: 20px;
+    margin-left:20px;
+}
+
+.sixth-div-3-3 p{
+    padding:10px 0px;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+.sixth-div-3-3 img{
+    width:100%;
+    height:100%;
+}
+
+.sixth-div-3-3 img:hover{
+    width:100%;
+    height:100%;
+}
+.sixth-div-3-3 a{
+    margin-left:20px;
+    color:white;
+    padding:18px 10px;
+    background-color: orange;
+    cursor: pointer;
+    transition:all 0.5s;
+}
+
+.sixth-div-3-3 p{
+    color:white;
+
+}
+
+.sixth-div-3-3 .last-icon{
+    margin-left: 20px;
+    
+color:black;
+    border-radius: 10px;
+    padding:15px 20px;
+    background-color: orange;
+}
+
+
+.sixth-div-3-3 p i{
+    color:orange;
+}
+
+.sixth-div-3-3 span{
+    color:#fff
+}
+
+
+
+
+/*-------seventh-div------*/
+.seventh-div {
+    background: black;
+    width: 100%;
+
+    color: #fff;
+    display: block;
+   
+    justify-content: center;
+}
+
+.Features-heading h1 .first{
+    color:yellow
+}
+
+.Features-heading h1 .second{
+    color:red;
+}
+
+
+
+.Features-heading {
+    width: 100%;
+  padding-top: 60px;
+    text-align: center;
+    
+    margin-bottom: 60px;
+
+}
+
+.Features-details {
+        display: flex;
+justify-content: center;
+    width: 100%;
+}
+
+.Features-details-3 {
+    flex: 0 0 380px;
+   display:block;
+    text-align: left;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+
+    
+}
+
+.Features-details-3-2{
+
+margin-top: 70px;
+
+}
+
+.Features-details-3-2 i{
+    font-size: 60px;
+    color:#fff;
+}
+
+.Features-details-3-2 h1{
+font-size: 20px;
+} 
+
+.Features-details-3 img{
+    width:400px;
+    height:500px;
+}
+
+
+/*--------------EIGHT-DIV---------*/
+.eight-div {
+    background: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.eight-div-2 {
+  
+  
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 0 0 600px;
+    padding: 30px 0px;
+    margin: 30px 0px;
+    
+    margin-left:60px;
+    margin-top:60px
+}
+
+.eight-div-2 h1{
+    font-size: 60px;
+}
+ 
+.eight-div-2 input{
+    margin-top:150px;
+    width:350px;
+    height:60px;
+    font-size:20px;
+}
+
+.eight-div-2 button{
+    color:white;
+    padding-top:5px;
+    margin-left:10px;
+    text-align: center;
+font-size:20px;
+    margin-top:150px;
+    width:150px;
+    height:64px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.eight-div-2 button:hover{
+    background-color: yellow;
+    color:black;
+}
+
+
+/*--------NINTH-DIV-------*/
+.nineth-div {
+    background: url(tatoo1.webp);
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+   
+}
+.clint-fedback-head-cards-2{
+    
+
+}
+.clint-fedback-head-cards-2-2{
+
+display:block;
+
+}
+.clint-fedback-head-cards-2-2 h1{
+    padding-top:0px;
+    padding-left:20px;
+}
+.clint-fedback-head-cards-2-2 h3{
+    padding-top:5px;
+    
+}
+.clint-fedback-head-cards-2-main{
+    display:flex;
+    
+}
+.clint-fedback-head-cards-2-2 img{
+     margin-top:40px;
+     border-radius:50%;
+
+}
+
+.clint-fedback-head {
+  padding-top:60px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.clint-fedback-head-cards {
+    display: flex;
+    width: 99%;
+   
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.clint-fedback-head-cards-2 {
+    padding-left:60px;
+    margin:0px 200px;
+background-color: gray;
+flex: 0 0 600px;
+    border: 2px solid;
+    margin: 20px
+}
+.clint-fedback-head-cards-2 h1{
+    
+    margin-top:40px;
+    font-size: 30px;
+
+}
+
+.clint-fedback-head-cards-2 h3{
+
+}
+
+.clint-fedback-head-cards-2 p{
+    padding:40px 0;
+}
+
+
+
+
+
+
+
+/*------10th-div start-------*/
+.tehth-div {
+    background: black;
+    width: 100%;
+    height:120vh;
+    display: block;
+
+    justify-content: space-around;
+}
+
+.data-contains {
+    padding: 60px 0px;
+    color: white;
+    text-align: center;
+}
+
+.data-cards {
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    justify-content: space-around;
+
+}
+
+.card-col-2 {
+    color: #fff;
+    padding: 40px 30px;
+   
+    flex: 0 0 350px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.card-col-2-card h4 i{
+    color:#fff;
+}
+.basic-data {
+    color: #fff;
+}
+
+.card-col-2-card{
+    background-color: gray;
+ 
+}
+.card-col-2-card a{
+    margin-left:10px;
+   
+}
+.card-col-2-card h4{
+    margin-top:30px;
+}
+.card-col-2-card h2{
+    margin-bottom:30px;
+}
+.basic-data p{
+    margin-bottom:30px;
+}
+
+/*---------footer-------------*/
+.eleventh-div {
+    background: rgb(81, 79, 79);
+    width: 100%;
+   
+
+    flex-wrap: wrap;
+}
+
+
+.bottom-main-nav {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid red;
+
+
+
+}
+
+.footer-col-3 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.footer-col-3 ul {
+    display: inline-block;
+    text-align: center;
+    padding-left: 50px;
+
+}
+
+.footer-col-3 ul li {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.footer-col-3 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px
+}
+
+.footer-col-3 ul li a:hover {
+    color: yellow;
+}
+
+
+.footer-col-3 ul li a i {
+    padding: 20px;
+    background-color: rgb(52, 82, 98);
+    border-radius: 50%;
+
+}
+
+.fa-brands {
+    color: white;
+    font-size: 20px;
+}
+
+.copy-right {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    padding-bottom: 30px;
+}
